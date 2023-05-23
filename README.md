@@ -116,13 +116,13 @@ Olha essa dica incrível. Você pode passar um segundo parâmetro no comando git
 ### gerar o venv
 
 #### no windows, no cmd do DOS:
-    C:\Users\enio.farias\AppData\Local\Programs\Python\Python39\python.exe -m venv .venv
+    C:\Users\user\AppData\Local\Programs\Python\Python39\python.exe -m venv .venv
 
 #### no windows, no gitbash:
-    /c/Users/enio.farias/AppData/Local/Programs/Python/Python39/python.exe -m venv .venv
+    /c/Users/user/AppData/Local/Programs/Python/Python39/python.exe -m venv .venv
 
 #### no linux, no shell
-    /home/enio/.pyenv/shims/python3 -m venv .venv
+    /home/user/.pyenv/shims/python3 -m venv .venv
 
 
 ### enviar "git push" da branch
