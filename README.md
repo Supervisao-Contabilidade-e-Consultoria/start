@@ -35,7 +35,7 @@
  - ci: Alterações em nossos arquivos e scripts de configuração de CI (exemplos: CircleCi, SauceLabs)
 
 ## modelo de exemplo:
-    Resumo com Capitalização e Breve (no Máximo, 50 Caracteres)
+    fix: Resumo com Capitalização e Breve (no Máximo, 50 Caracteres)
 
     Texto explicativo mais detalhado, se necessário. Deixe-o com, cerca de 72
     caracteres. Em alguns contextos, a primeira linha é tratada como o assunto de um e-mail e o resto do text como o corpo. A linha em branco separando o resumo do corpo é fundamental (a menos que você não escreva uma descrição detalhada); ferramentas como o rebase podem se confundir se você executar ambas em conjunto.
@@ -54,7 +54,12 @@
 
     Resolve a issue nº 123
 
-## sugestão de commando para o commit:
+## O comando git commit
+Olha essa dica incrível. Você pode passar um segundo parâmetro no comando git commit, nele você pode escrever mais detalhes sobre seu commit.
+
+    $ git commit -m "Title" -m "Description"
+
+É o mesmo comando que você já conhece, mas com uma segunda parte para a descrição. Portanto, “-m ‘title'” permite que você escreva o título abreviado do commit, e “-m ‘description'” permite que você escreva a descrição se precisar fornecer mais detalhes.
     
 
 
@@ -63,3 +68,4 @@
 - https://github.com/angular/angular/blob/68a6a07/CONTRIBUTING.md#commit
 - https://www.freecodecamp.org/portuguese/news/como-escrever-boas-mensagens-de-commit-um-guia-pratico-do-git/
 - https://gitmoji.dev/
+- http://udacity.github.io/git-styleguide/
