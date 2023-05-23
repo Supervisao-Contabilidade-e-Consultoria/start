@@ -22,7 +22,7 @@
  * Não pense que seu código é autoexplicativo
  * Siga a convenção de commit definida por sua equipe
 
-## tipos de commits:
+### tipos de commits:
  - **perf: Uma alteração de código que melhora o desempenho**
  - **feat: uma nova feature (recurso) que você está adicionando a uma aplicação específica**
  - **fix: a resolução de um bug**
@@ -34,7 +34,7 @@
  - build: Alterações que afetam o sistema de compilação ou dependências externas (exemplos de escopos: nova lib, alterações grandes)
  - ci: Alterações em nossos arquivos e scripts de configuração de CI (exemplos: CircleCi, SauceLabs)
 
-## modelo de exemplo:
+### modelo de exemplo:
     fix: Resumo com Capitalização e Breve (no Máximo, 50 Caracteres)
 
     Texto explicativo mais detalhado, se necessário. Deixe-o com, cerca de 72
@@ -54,6 +54,7 @@
 
     Resolve a issue nº 123
 
+
 ## O comando git commit
 Olha essa dica incrível. Você pode passar um segundo parâmetro no comando git commit, nele você pode escrever mais detalhes sobre seu commit.
 
@@ -63,9 +64,9 @@ Olha essa dica incrível. Você pode passar um segundo parâmetro no comando git
     
 
 
-### fontes:
-- https://www.conventionalcommits.org/pt-br/v1.0.0-beta.4/#:~:text=A%20mensagem%20de%20commit%20DEVE,ao%20seu%20aplicativo%20ou%20biblioteca.
-- https://github.com/angular/angular/blob/68a6a07/CONTRIBUTING.md#commit
-- https://www.freecodecamp.org/portuguese/news/como-escrever-boas-mensagens-de-commit-um-guia-pratico-do-git/
-- https://gitmoji.dev/
-- http://udacity.github.io/git-styleguide/
+## fontes:
+- [conventionalcommits](https://www.conventionalcommits.org/pt-br/v1.0.0-beta.4/#:~:text=A%20mensagem%20de%20commit%20DEVE,ao%20seu%20aplicativo%20ou%20biblioteca.)
+- [github: angular](https://github.com/angular/angular/blob/68a6a07/CONTRIBUTING.md#commit)
+- [freecodecamp: escrever boas mensagens](https://www.freecodecamp.org/portuguese/news/como-escrever-boas-mensagens-de-commit-um-guia-pratico-do-git/)
+- [gitmoji](https://gitmoji.dev/)
+- [udacity: styleguide](http://udacity.github.io/git-styleguide/)
