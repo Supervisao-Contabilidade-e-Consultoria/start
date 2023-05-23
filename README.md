@@ -1,3 +1,9 @@
+<p align="center">
+  <img src="icone/logo_super_2_circle.png" width="120" title="supervisão" alt="Supervisao Contabilidade e Consultoria">  
+</p>
+
+---
+
 # Relatório de projetos
 
 ## atualizado em 08/05/2023
@@ -154,3 +160,8 @@ Olha essa dica incrível. Você pode passar um segundo parâmetro no comando git
     venv/Scripts/python.exe -m PyInstaller  --onefile --paths venv/Lib/site-packages --icon=icone/logo_super_2_circle.ico -n  sv000_main__v2.0_24042023 sv000_main.py ; rm sv000_main__v2.0_24042023.exe ; mv dist/sv000_main__v2.0_24042023.exe .
 
 ---
+
+<p align="center">
+  <img src="icone/logo_super_1_circle.png" width="120" title="supervisão"  alt="Supervisao Contabilidade e Consultoria">  
+</p>
+
