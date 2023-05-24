@@ -128,10 +128,10 @@ Olha essa dica incrível. Você pode passar um segundo parâmetro no comando git
 ### enviar "git push" da branch
     git add . ; git add * ; git commit -m "fix: ajuste de log debug com prints" ; git push -f origin ajuste_01
 
-
 ## atualizar python
-    python.exe -m pip install PyInstaller
-    python.exe -m pip install --upgrade pip
+    .venv/Scripts/python.exe -m pip install PyInstaller
+    .venv/Scripts/python.exe -m pip install --upgrade pip
+
 
 ### instalar os requirements.txt na mão
 #### usando o gitbash
@@ -157,7 +157,7 @@ Olha essa dica incrível. Você pode passar um segundo parâmetro no comando git
     python -m PyInstaller --onefile --paths .\venv\Lib\site-packages --icon=icone\logo_super_2_circle.ico -n  sv000_main__v2.0_24042023 .\sv000_main.py ; rm sv000_main__v2.0_24042023.exe ; mv dist/sv000_main__v2.0_24042023.exe .
 
 ### terminal do gitbash
-    venv/Scripts/python.exe -m PyInstaller  --onefile --paths venv/Lib/site-packages --icon=icone/logo_super_2_circle.ico -n  sv000_main__v2.0_24042023 sv000_main.py ; rm sv000_main__v2.0_24042023.exe ; mv dist/sv000_main__v2.0_24042023.exe .
+    .venv/Scripts/python.exe -m PyInstaller  --onefile --paths .venv/Lib/site-packages --icon=icone/logo_super_2_circle.ico -n  sv000_main__v2.0_24042023 sv000_main.py ; rm sv000_main__v2.0_24042023.exe ; mv dist/sv000_main__v2.0_24042023.exe .
 
 ---
 
